@@ -30,7 +30,7 @@ The neural network is designed to handle Alzheimer's disease image classificatio
 
 3. **Run the Streamlit App:**
     ```bash
-    streamlit run final.py
+    streamlit run app.py
     ```
 
 4. **Access the Hosted Streamlit App:**
