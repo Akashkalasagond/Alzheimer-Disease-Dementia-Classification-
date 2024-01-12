@@ -7,7 +7,7 @@ import io
 import pymongo
 
 # Load the pre-trained model
-model_path = "C:\\Users\\akash boss\\Alzheimer's Dementia Classification\\Alzheimer_CNN2d.h5"  # Replace with the actual path to your saved model
+model_path = "Alzheimer_CNN2d.h5"  # Replace with the actual path to your saved model
 model = tf.keras.models.load_model(model_path)
 
 # Define class labels
