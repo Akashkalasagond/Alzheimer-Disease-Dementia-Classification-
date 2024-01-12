@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains a machine learning model for classifying Alzheimer's disease into four classes: Mild Demented, Very Mild Demented, Non-Demented, and Unknown Demented. The model has been trained with a test accuracy of 99.12%.
+This project focuses on classifying Alzheimer's disease into four classes: Mild Demented, Very Mild Demented, Non-Demented, and Unknown Demented. The model, based on a state-of-the-art neural network architecture, achieves a test accuracy of 99.12%.
 
 ## Classes
 
@@ -13,32 +13,34 @@ This repository contains a machine learning model for classifying Alzheimer's di
 
 ## Model Details
 
-The model is based on a state-of-the-art neural network architecture and has been trained on a comprehensive dataset of Alzheimer's disease images. The training process achieved an impressive 99.12% accuracy on the test set, demonstrating its robustness in classifying different stages of Alzheimer's disease.
+The neural network is designed to handle Alzheimer's disease image classification. Trained on a comprehensive dataset, it boasts a remarkable 99.12% accuracy on the test set, showcasing its effectiveness in identifying various stages of Alzheimer's disease.
 
 ## Usage
 
-To use the trained model for predicting Alzheimer's disease classes based on an input image, follow these steps:
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/your-username/alzheimers-classification.git
+    cd alzheimers-classification
+    ```
 
-1. **Ensure Dependencies are Installed:**
+2. **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-2. **Run Streamlit App:**
+3. **Run the Streamlit App:**
     ```bash
     streamlit run final.py
     ```
 
-3. **Access the Provided URL:**
-    Open the URL provided in your web browser.
+4. **Access the Hosted Streamlit App:**
+   [Click here to access the hosted Streamlit app](https://dementiaclassification.streamlit.app/)
 
-4. **Upload an Image:**
-    Upload an image in PNG, JPG, or JPEG format.
+5. **Upload an Image:**
+    - Upload an image in PNG, JPG, or JPEG format.
 
-5. **Prediction:**
-    The model will predict the Alzheimer's disease class of the given image.
-
-### [Click here to access the hosted Streamlit app](https://dementiaclassification.streamlit.app/)
+6. **Prediction:**
+    - The model will predict the Alzheimer's disease class of the given image.
 
 ## Note
 
