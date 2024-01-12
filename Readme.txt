@@ -23,6 +23,7 @@ streamlit run final.py
 4) Upload an image in PNG, JPG, or JPEG format.
 5) The model will predict the Alzheimer's disease class of the given image.
 
+please link me https://dementiaclassification.streamlit.app/
 Note:
 The model's accuracy is based on the training dataset, and its performance on new, unseen data may vary.
 
